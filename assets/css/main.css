@@ -43,6 +43,7 @@ ul{
 }
 img {
     width: 400px;
+    height: 450px;
 }
 
 /* Header */
@@ -88,4 +89,36 @@ img {
 }
 .btn-contact .btn-title {
     text-align: center;
+}
+
+/* Section home-page */
+.home-page {
+    padding-right: var(--padding-max);
+    padding-left: var(--padding-max);
+    padding-top: var(--padding-min);
+    background-color: blue;
+}
+
+.home-page-container {
+    display: flex;
+    padding-left: inherit;
+    padding-right: inherit;
+    background-color: red;
+    justify-content: space-between;
+}
+
+.text-section-home-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-section-home-page .title-home-page {
+    font-size: 50px;
+    color: #132813;
+}
+.text-section-home-page .para {
+    width: 200px;
+}
+.text-section-home-page .para-home-page {
+    font-size: 13px;
 }
