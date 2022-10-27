@@ -6,6 +6,8 @@
 :root {
     --background-color: #eeeeee;
     --font-family: 'Poppins', sans-serif;
+    --padding-max : 5rem;
+    --padding-min: 2rem;
 }
 
 /* Base style */
@@ -34,8 +36,56 @@ a{
 ul{
     list-style: none;
 }
+
+.list {
+    display: flex;
+    gap: 2rem;
+}
 img {
     width: 400px;
 }
 
 /* Header */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-left: var(--padding-max);
+    padding-right: var(--padding-max);
+    padding-top: var(--padding-min);
+}
+.logo {
+    font-size: 30px;
+}
+
+.logo-form1 {
+    width: 10px;
+    height: 30px;
+    background-color: #247924;
+}
+.logo-form2 {
+    width: 10px;
+    height: 30px;
+    background-color: #000000;
+}
+.nav-logo-container {
+    display: flex;
+    gap: 10px;
+}
+.nav-logo {
+    display: flex;
+    gap: 3px;
+}
+
+.btn-contact {
+    height: 3rem;
+    width: 10rem;
+    background-color: #247924;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-contact .btn-title {
+    text-align: center;
+}
