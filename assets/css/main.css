@@ -96,14 +96,12 @@ img {
     padding-right: var(--padding-max);
     padding-left: var(--padding-max);
     padding-top: var(--padding-min);
-    background-color: blue;
 }
 
 .home-page-container {
     display: flex;
     padding-left: inherit;
     padding-right: inherit;
-    background-color: red;
     justify-content: space-between;
 }
 
